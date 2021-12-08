@@ -16,7 +16,6 @@ Results on CNN new dataset
 1. Download dataset from [here](https://drive.google.com/uc?export=download&id=0BwmD_VLjROrfTHk4NFg2SndKcjQ)
 2. Unzip the file
 3. Put all `.story` files in a directory called `./data`
-4. `python3 load_dat.py`
 
 ## Download the pretrained ELMo model
 
@@ -34,4 +33,4 @@ Results on CNN new dataset
 
 ## Run the code in the `generate_summaries.ipynb` file
 
-Generated summaries are stored in a file called `summaries.txt`. This file stores the reference summaries and generated ELMo and Word2Vec summaries. Each document's summaries are separated by `\n@@@\n`. The summaries for a document are separated by `\n&&&&\n` with the first summary being the refernce summary, the second summary being the Word2Vec summary, and the third summary being the ELMo summary. 
+Generated summaries are stored in a file called `summaries.json`. This file stores the reference, Word2Vec, and ELMo summaries for each article.
