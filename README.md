@@ -1,7 +1,7 @@
 # centroid-based-ATS-with-ELMo
 This code tests the performance of ELMo and Word2Vec embeddings in a centroid-based automatic text summarizer presented in the paper **`Centroid-Based Text Summarization through Compositionality of Word Embeddings`** (https://aclanthology.org/W17-1003.pdf).
 
-Results on 2000 articles from CNN news dataset
+Results (precision) on 2000 articles from CNN news dataset
 
 | Models | ROUGE-1   | ROUGE-2 | ROUGE-L |
 | -------| --------- | ------- | ------- |
